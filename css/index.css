@@ -1,0 +1,49 @@
+#formInput {
+    text-align: center;
+}
+
+#dataTable {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#dataTable td {
+    border: 1px solid #000000;
+}
+
+#showDiv {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#groupDiv {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle
+}
+
+#dataDiv {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+
+#groupTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#groupTable td {
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+#groupTable td:nth-child(1){
+    width: 10%;
+}
+
+#groupTable td:nth-child(2) {
+    text-align: left;
+}

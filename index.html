@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>自動分組</title>
+    <link rel='stylesheet' type='text/css' href='css/index.css' />
+</head>
+
+<body>
+    <div id='formInput'>
+        <h1>隨機分組</h1>
+        <div>
+            <label>分組規則：</label>
+
+            <label>分組數：</label>
+            <input id='groupNum' type='number' value='1' />
+            <label>匯入資料：</label>
+            <input id='peopleList' type='file' />
+            <input id='groupBtn' type='button' value='分組' />
+            <input id='outPutpBtn' type='button' value='匯出' />
+            <br />
+        </div>
+        <div id='showDiv'>
+            <div id='dataDiv'>
+                <table id='dataTable'>
+                </table>
+            </div>
+            <div id='groupDiv'>
+                <table id='groupTable'>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script type='text/javascript' src='jquery/jquery-3.4.0.min.js'></script>
+    <script type='text/javascript' src='javascript/index.js'></script>
+</body>
+
+</html>
